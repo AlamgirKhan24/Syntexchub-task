@@ -1,0 +1,112 @@
+.navbar-brand:hover,
+.navbar-brand:focus {
+    font-family: 'Great Vibes', cursive;
+    color: #FFCC00;
+}
+
+.navbar-brand {
+    font-family: 'Great Vibes', cursive;
+    color: #FFCC00;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 0.865) !important;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #FFCC00 !important;
+    border-bottom: #FFCC00 !important;
+}
+
+nav {
+    background-color: rgb(0, 0, 0) !important;
+    backdrop-filter: blur(8px);
+    box-shadow: 2px 3px 8px white;
+    transition: all 0.5s ease-out;
+}
+
+nav:hover {
+    box-shadow: 2px 2px 8px rgb(252, 252, 252);
+}
+
+.navbar-toggler {
+    background-color: rgba(255, 255, 255, 0.865) !important;
+    font-size: 0.8rem;
+}
+
+.dropdown {
+    font-family: 'Times New Roman', Times, serif;
+    font-family: 0.8rem;
+}
+
+main {
+    color: white;
+    background-color: black;
+    min-height: 92vh;
+}
+
+.display-3 {
+    font-family: 'Creepster', system-ui;
+    font-size: clamp(2rem, 5vw, 4rem);
+    font-weight: 300;
+}
+
+#About {
+    min-height: 100vh;
+    background-color: black;
+}
+
+p {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.95rem;
+    letter-spacing: 2px;
+    color: white !important;
+}
+
+.h1 {
+    font-family: 'Creepster', system-ui;
+}
+
+#Menu {
+    height: auto;
+    background-color: black;
+}
+
+.h3 {
+    font-family: 'Great Vibes', cursive;
+    color: #FFCC00;
+}
+
+#Event {
+    background-color: black;
+}
+
+.specific {
+    color: #FFCC00 !important;
+}
+
+#ingredients {
+    background-color: black;
+}
+
+#book {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("37cdc204889a20d1ca6d94bb2fb28b34.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+.link {
+    position: relative;
+    top: 22px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}

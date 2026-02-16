@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Web Page</title>
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Creepster&display=swap" rel="stylesheet">
+
+    <!-- BOOTSTRAP -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="header.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <!-- Header -->
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-sm navbar-light">
+            <div class="container">
+
+                <a class="navbar-brand" href="#home" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">Steakhouse</a>
+                <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                <div class="collapse navbar-collapse" id="collapsibleNavId">
+
+                    <ul class="navbar-nav ms-auto mt-2 mt-lg-0">
+                        <li class="nav-item px-3">
+                            <a class="nav-link active" href="#home" aria-current="page">Home</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#About">About</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#Menu">Menu</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#Event">Events</a>
+                        </li>
+                        <li class="nav-item px-3">
+                            <a class="nav-link" href="#contact">Contact</a>
+                        </li>
+                        <li class="nav-item dropdown px-3">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">EN</a>
+
+                            <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Chinese</a></li>
+                                <li><a class="dropdown-item" href="#">Español</a></li>
+                                <li><a class="dropdown-item" href="#">Français</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Main -->
+    <main class="pt-2 text-white" id="home">
+        <div class="container">
+            <div class="row align-items-center justify-content-between">
+                <div class="col-12 col-md-5 col-lg-4 mt-3 mt-lg-5">
+                    <div class="display-3  pt-lg-5 fw-bold" id="simpleUsage" data-aos="fade-right">A Premium And Authentic Steakhouse</div>
+                    <br>
+                    <a href="#book" class="btn btn-outline-warning rounded-pill" data-aos="zoom-in zoom-out">Book A Table</a>
+                </div>
+                <div class="col-12 col-md-7 mt-3 offset-md-1 " data-aos="fade-left">
+                    <img src="chawal.png" class="img-fluid " alt="Steakhouse Image">
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- ABOUT US -->
+    <section id="About" class="py-5">
+        <div class="container">
+
+            <div class="row justify-content-between mt-5 bg-white rounded">
+                <div class="col-md-4 col-12 order-1 order-md-1 text-center gx-0 gy-0 px-0 px-0" data-aos="zoom-in-down">
+                    <img src="chicken (3).png" alt="Burger" class="floating-food img-fluid w-100 h-100" id="rotatingChicken4">
+                </div>
+
+                <div class="col-md-7 col-12 order-2 order-md-2" data-aos="zoom-in">
+                    <div class="h1 specific">Our Story</div>
+                    <p class="text-dark pt-5">Born from a passion for the perfect sear, our steakhouse is the soul of the hotel. We believe that great dining starts with the finest hand-selected cuts and the ancient power of an open flame. Every steak we serve is aged to perfection
+                        and grilled with precision to honor the natural flavors of the meat. More than just a meal, we offer a sanctuary for those who appreciate culinary craft and refined atmosphere. Whether it’s a quiet dinner for two or a grand celebration,
+                        our table is your home. From our signature sauces to our world-class wine cellar, every detail is curated for excellence. We don't just cook; we celebrate the legacy of the classic steakhouse. Savor the warmth of our hospitality
+                        and the intensity of our grill. This is where tradition meets luxury, one plate at a time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- OUR MENU -->
+    <section id="Menu" class="py-5">
+        <div class="container">
+            <div class="h1 text-center text-white pt-4 creepster-static">Our Menu</div>
+
+            <div class="row align-items-center mt-5">
+                <div class="col-md-7 col-12 order-1 order-md-2" data-aos="fade-left">
+                    <div class="h3">Bar B.Q Platter</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex harum veniam repudiandae vero consequatur rerum et aut magnam vel nisi.</p>
+                </div>
+                <div class="col-md-4 col-12 order-2 order-md-1 text-center" data-aos="fade-right">
+                    <img src="platter.png" alt="Platter" width="80%" class="floating-food" id="rotatingChicken">
+                </div>
+            </div>
+
+            <div class="row align-items-center mt-5">
+                <div class="col-md-7 col-12" data-aos="fade-left">
+                    <div class="h3 creepster-static">Chicken Biryani</div>
+                    <p class="col-md-12 ps-md-4 pe-md-0">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex harum veniam repudiandae vero consequatur rerum et aut magnam vel nisi.</p>
+                </div>
+                <div class="col-md-5 col-12 text-center text-md-end" data-aos="fade-right">
+                    <img src="chicken (3).png" alt="Biryani" width="60%" class="biryani-img-style" id="rotatingChicken2">
+                </div>
+            </div>
+
+            <div class="row align-items-center mt-5">
+                <div class="col-md-7 col-12 order-1 order-md-2" data-aos="fade-left">
+                    <div class="h3 creepster-static">Premium Burger</div>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ex harum veniam repudiandae vero consequatur rerum et aut magnam vel nisi.</p>
+                </div>
+                <div class="col-md-4 col-12 order-2 order-md-1 text-center" data-aos="fade-right">
+                    <img src="pizza.png" alt="Burger" width="80%" class="floating-food" id="rotatingChicken3">
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- EVENTS -->
+    <section id="Event" class="py-5">
+        <div class="container">
+
+            <div class="row justify-content-between mt-5 bg-white rounded">
+                <div class="col-md-4 col-12 order-1 order-md-1 text-center gx-0 gy-0 px-0 px-0" data-aos="zoom-out">
+                    <img src="events.jpg" alt="Burger" class="floating-food img-fluid w-100 h-100" id="rotatingChicken4">
+                </div>
+
+                <div class="col-md-7 col-12 order-2 order-md-2" data-aos="zoom-in">
+                    <div class="h1 specific">UPCOMING EVENTS</div>
+                    <p class="text-dark pt-5">The countdown has officially begun for an unforgettable experience that you won’t want to miss.
+                        <br><br> Join us for a transformative day filled with groundbreaking insights, elite networking, and pure inspiration.
+                        <br><br> Spaces are disappearing fast, so secure your spot now to be part of the most anticipated gathering of the season.
+                        <br><br> Prepare to redefine what’s possible as we bring together the brightest minds and boldest ideas under one roof.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- INGREDIENTS -->
+    <section id="ingredients">
+        <div class="container">
+
+            <div class="row alignt-item-center justify-content-between">
+                <div class="text-center pt-5 order-1 order-md-1">
+                    <div class="h3 creepster-static" data-aos="fade-down">Discover</div>
+                    <div class="h1 text-center text-white pt-4 creepster-static pt-3" data-aos="zoom-in-down">INGREDIENTS</div>
+                    <p class="pt-3">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Illo, architecto? Tempora eum nemo recusandae placeat rerum eos nihil soluta cumque magnam provident vel commodi, quas praesentium maiores consequatur fuga illum.
+                    </p>
+                </div>
+
+                <div class="row align-item-center  order-2 order-md-2 pt-5">
+                    <div class="col-4 col-md-4 pt-5">
+                        <img src="imli.png" alt="" width="50%" data-aos="fade-down">
+                    </div>
+                    <div class="col-5 col-md-5">
+                        <img src="mint.png" alt="" width="40%" data-aos="fade-up">
+                    </div>
+                    <div class="col-3 col-md-3">
+                        <img src="pieas.png" alt="" width="80%" data-aos="fade-down">
+                    </div>
+                </div>
+
+                <div class="row align-item-center  order-2 order-md-2 pt-5">
+                    <div class="col-4 col-md-4 pt-5" data-aos="zoom-out-up">
+                        <img src="ingredie.png" alt="" width="50%">
+                    </div>
+                    <div class="col-5 col-md-5" data-aos="zoom-out-down">
+                        <img src="adrak.png" alt="" width="40%">
+                    </div>
+                    <div class="col-3 col-md-3" data-aos="zoom-out-up">
+                        <img src="nembo.png" alt="" width="80%">
+                    </div>
+                </div>
+
+                <div class="row align-item-center  order-2 order-md-2 pt-5">
+                    <div class="col-4 col-md-4 pt-5">
+                        <img src="imli.png" alt="" width="50%" data-aos="fade-right">
+                    </div>
+                    <div class="col-5 col-md-5" data-aos="fade-down">
+                        <img src="coconut.png" alt="" width="40%">
+                    </div>
+                    <div class="col-3 col-md-3" data-aos="fade-left">
+                        <img src="tomato.png" alt="" width="40%">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- BOOKING -->
+    <section id="book">
+        <div class="container-fluid vh-100">
+            <div class="row h-100 justify-content-center align-items-center">
+                <div class="col-auto">
+                    <div class="h3 creepster-static text-center mt-4 mt-md-4" data-aos="fade-down">Reservation</div>
+                    <div class="h1 text-center text-white pt-4 creepster-static pt-3" data-aos="zoom-in-down">Book Your Table</div>
+                    <div class="btn btn-outline-warning  text-center rounded-pill mx-auto d-block mt-5" data-aos="zoom-in zoom-out">Online Booking</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT AND FOOTER -->
+    <footer class="bg-dark">
+        <section class="contact" data-aos="fade-up" id="contact">
+            <div class="container text-white py-5">
+                <div class="row justify-content-between">
+
+                    <div class="col-md-4 mb-4">
+                        <div class="h5 mb-4">Location</div>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li>Start with our fresh sliced shrimps and</li>
+                                    <li>1223 Roosevelt, NY</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li>Start with our fresh sliced shrimp</li>
+                                    <li>1223 Roosevelt, NY</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="h5 mb-4">Working Hours</div>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li>Monday - Thursday:</li>
+                                    <li>Friday:</li>
+                                    <li>Saturday - Sunday:</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li>10 am - 9 pm</li>
+                                    <li>4 pm - 11 pm</li>
+                                    <li>10 am - 11 pm</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4 mb-4">
+                        <div class="h5 mb-4">Contact</div>
+                        <div class="row">
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li>Restaurant Name:</li>
+                                    <li>Email:</li>
+                                </ul>
+                            </div>
+                            <div class="col-6">
+                                <ul class="list-unstyled">
+                                    <li>Steakhouse</li>
+                                    <li><a href="mailto:info@kitchen.com">info@kitchen.com</a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <!-- ANIMATION SCROLL LIBRARAY -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <!-- BOOTSTRAP JAVASCRIPT -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js "></script>
+
+    <!-- JAVASCRIPT -->
+    <script src="header.js "></script>
+</body>
+
+</html>
